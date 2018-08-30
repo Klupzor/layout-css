@@ -1,0 +1,13 @@
+@import './variables';
+
+.container-fluid {
+    padding: 0;
+    
+}
+
+.header{
+    font-family: $title-font;
+    background-color: $bar-color;
+    color: $background-color;
+    font-size: $title-size;
+}
