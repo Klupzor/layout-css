@@ -1,4 +1,4 @@
-@import './variables';
+@import './grid-variables';
 
 body{
     margin: 0;
@@ -12,17 +12,17 @@ body{
     grid-row-gap: $grid-row-gap;
 
 
-    .col{
-        @if $dev {
-            border: $border-width solid $border-color;
-        }
-        // grid-column: auto / span 1;
-    }
+    
 
     // Extra small screen / phone
     @media screen and (min-width: $xs ){
         @if $dev {
             background-color: beige;
+        }
+        .col{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
         }
 
         .col-1{

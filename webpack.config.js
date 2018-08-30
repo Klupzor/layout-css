@@ -6,8 +6,8 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
     //development|production
-    mode: "development",
-    // mode: "production",  
+    // mode: "development",
+    mode: "production",  
 
     entry: {
         home: "./app"
