@@ -1,32 +1,23 @@
-// -----------------Colores---------------
-
-$gray-color: #F2F2F2;
-
-$principal-color: #16D9D9;
-
-$secondary-color: #30BDBB;
-
-$bar-color: #232937;
-
-$dark-font-color: #4D4D4D;
-
-$background-color: #FFFFFF;
-
-$gray-font-color: #CED3D9;
-
-$red-font-color: #DC565D;
-
-$red-box-color: #E50636;
-
-$blue-color: #1345A4;
-
-//------------------------Fuentes---------------------
-$title-font: 'Fredoka One', cursive;
-$body-font: 'Tenor Sans', sans-serif;
-//--tamaños
-$title-size: 24px;
-$body-size: 16px;
+//-----mode dev------
+$dev: true;
+// $dev: false;
 
 //------------------------Modo cuadricula--------------------
-$border: true;
-// $border: false;
+$border-color: red;
+$border-width: 2px;
+
+//----------------------grid-breakpoints-----------------------
+// Extra small screen / phone
+$xs: 0;
+ // Small screen / phone
+$sm: 576px;
+// Medium screen / tablet
+$md: 768px;
+// Large screen / desktop
+$lg: 992px;
+// Extra large screen / wide desktop
+$xl: 1200px;
+
+//---------------config columns------------------------------------
+$grid-columns: 12;
+$grid-column-gap: 3px;

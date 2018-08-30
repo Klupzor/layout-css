@@ -80,7 +80,7 @@ module.exports = {
         }),
 
         new HtmlWebpackPlugin({
-            title: 'Glumsus',
+            title: 'Layout-css',
             template: './src/bin/index.html',
             chunks: ['home'],
             inject: true

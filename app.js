@@ -1,3 +1,3 @@
 import './src/bin/estilos.scss'
 
-console.log('holamundo')
+console.log('Estilos con sass y display grid')
