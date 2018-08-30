@@ -9,45 +9,434 @@ body{
     display: grid;
     grid-template-columns: repeat($grid-columns, 1fr);
     grid-column-gap: $grid-column-gap;
-    height: 100vh;
+    grid-row-gap: $grid-row-gap;
+
 
     .col{
         @if $dev {
             border: $border-width solid $border-color;
         }
-        // grid-column: span 1;
+        // grid-column: auto / span 1;
     }
 
+    // Extra small screen / phone
     @media screen and (min-width: $xs ){
         @if $dev {
             background-color: beige;
         }
-        
+
+        .col-1{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 1;
+        }
+
+        .col-2{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 2;
+        }
+        .col-3{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 3;
+        }
+        .col-4{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 4;
+        }
+        .col-5{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 5;
+        }
+        .col-6{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 6;
+        }
+        .col-7{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 7;
+        }
+        .col-8{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 8;
+        }
+        .col-9{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 9;
+        }
+        .col-10{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 10;
+        }
+        .col-11{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 11;
+        }
+        .col-12{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 12;
+        }
         
     }
-
+    // Small screen / phone
     @media screen and (min-width: $sm ){
         @if $dev {
             background-color: blue;
         }
+        .col-sm{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+        }
+        .col-sm-1{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 1;
+        }
+
+        .col-sm-2{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 2;
+        }
+        .col-sm-3{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 3;
+        }
+        .col-sm-4{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 4;
+        }
+        .col-sm-5{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 5;
+        }
+        .col-sm-6{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 6;
+        }
+        .col-sm-7{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 7;
+        }
+        .col-sm-8{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 8;
+        }
+        .col-sm-9{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 9;
+        }
+        .col-sm-10{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 10;
+        }
+        .col-sm-11{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 11;
+        }
+        .col-sm-12{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 12;
+        }
         
     }
-
+    // Medium screen / tablet
     @media screen and (min-width: $md ){
         @if $dev {
             background-color: rgb(81, 168, 73);
         }
+        .col-md{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+        }
+        .col-md-1{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 1;
+        }
+
+        .col-md-2{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 2;
+        }
+        .col-md-3{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 3;
+        }
+        .col-md-4{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 4;
+        }
+        .col-md-5{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 5;
+        }
+        .col-md-6{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 6;
+        }
+        .col-md-7{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 7;
+        }
+        .col-md-8{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 8;
+        }
+        .col-md-9{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 9;
+        }
+        .col-md-10{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 10;
+        }
+        .col-md-11{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 11;
+        }
+        .col-md-12{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 12;
+        }
         
     }
+    // Large screen / desktop  
     @media screen and (min-width: $lg ){
         @if $dev{
             background-color: rgb(138, 78, 133);
         }
+        .col-lg{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+        }
+        .col-lg-1{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 1;
+        }
+
+        .col-lg-2{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 2;
+        }
+        .col-lg-3{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 3;
+        }
+        .col-lg-4{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 4;
+        }
+        .col-lg-5{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 5;
+        }
+        .col-lg-6{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 6;
+        }
+        .col-lg-7{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 7;
+        }
+        .col-lg-8{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 8;
+        }
+        .col-lg-9{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 9;
+        }
+        .col-lg-10{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 10;
+        }
+        .col-lg-11{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 11;
+        }
+        .col-lg-12{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 12;
+        }
         
     }
+    // Extra large screen / wide desktop
     @media screen and (min-width: $xl ){
         @if $dev{
             background-color: pink;
+        }
+        .col-xl{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+        }
+        .col-xl-1{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 1;
+        }
+
+        .col-xl-2{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 2;
+        }
+        .col-xl-3{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 3;
+        }
+        .col-xl-4{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 4;
+        }
+        .col-xl-5{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 5;
+        }
+        .col-xl-6{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 6;
+        }
+        .col-xl-7{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 7;
+        }
+        .col-xl-8{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 8;
+        }
+        .col-xl-9{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 9;
+        }
+        .col-xl-10{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 10;
+        }
+        .col-xl-11{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 11;
+        }
+        .col-xl-12{
+            @if $dev {
+                border: $border-width solid $border-color;
+            }
+            grid-column: auto / span 12;
         }
         
     }
