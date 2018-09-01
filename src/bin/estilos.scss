@@ -10,7 +10,7 @@ body{
     grid-template-columns: repeat($grid-columns, 1fr);
     grid-column-gap: $grid-column-gap;
     grid-row-gap: $grid-row-gap;
-
+    overflow: auto;
 
     
 
